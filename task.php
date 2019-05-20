@@ -19,7 +19,7 @@ function randUniqueGenerator (): array
 /**
 * Проверка баланса строки
 **/
-public function isBalanced(string $input)
+public function isBalanced(string $input): bool
     {
         $pairs = [
            '{' => '}',
